@@ -7,6 +7,9 @@ def function_2(x): return x ** 3
 def function_3(x): return x ** 4
 
 
+def function_4(x): return x ** 5
+
+
 def runCallbacks():
     callbacks = [function_1, function_2, function_3]
     print('nNamed Functions: ')
